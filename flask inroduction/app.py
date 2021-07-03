@@ -1,16 +1,19 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+
 from flask_mysqldb import MySQL
 
 app=Flask(__name__) # flask app
 
 #database path
-app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///test.db' #here '///' is relative path and'////' abosolute path
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config['SQLALCHEMY_DATABASE_URI']= 'mysql://root:1234@localhost/inputdb' #here '///' is relative path and'////' abosolute path
 db=SQLAlchemy(app)# initializing the database
 
 #model creation
 class Todo(db.Model):
+
     id = db.Column(db.Integer, primary_key =True)
     content = db.Column(db.String(200), nullable= False)
     completed =db.Column(db.Integer, default=0)

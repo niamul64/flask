@@ -1,4 +1,8 @@
 # flask
+<br>
+tutorial: https://github.com/jakerieger/FlaskIntroduction
+<br>
+
 1. setup python environment
 2. pip install flask flask-sqlalchemy 
 
@@ -7,4 +11,4 @@
 4. db.create_all()
 
 <br>
-tutorial: https://github.com/jakerieger/FlaskIntroduction
+tutorial mysql connector: https://www.youtube.com/watch?v=hQl2wyJvK5k&t=447s
