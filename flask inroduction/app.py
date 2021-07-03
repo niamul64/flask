@@ -1,7 +1,9 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-app=Flask(__name__)
+from flask_mysqldb import MySQL
+
+app=Flask(__name__) # flask app
 
 #database path
 app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///test.db' #here '///' is relative path and'////' abosolute path

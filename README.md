@@ -4,4 +4,7 @@
 
 ## database
 3. from app import db
-4.
+4. db.create_all()
+
+<br>
+tutorial: https://github.com/jakerieger/FlaskIntroduction
