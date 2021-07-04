@@ -12,3 +12,9 @@ tutorial: https://github.com/jakerieger/FlaskIntroduction
 
 <br>
 tutorial mysql connector: https://www.youtube.com/watch?v=hQl2wyJvK5k&t=447s
+
+
+<br>
+
+## ORM:
+https://www.youtube.com/watch?v=cYWiDiIUxQc
