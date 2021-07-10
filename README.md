@@ -18,3 +18,11 @@ tutorial mysql connector: https://www.youtube.com/watch?v=hQl2wyJvK5k&t=447s
 
 ## ORM:
 https://www.youtube.com/watch?v=cYWiDiIUxQc
+
+<br>
+
+##  Flask template 
+https://www.youtube.com/watch?v=pJ8V51XJuf0
+
+## Then study auth
+https://www.youtube.com/watch?v=MiHVTHzIgyE
